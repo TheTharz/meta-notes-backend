@@ -1,6 +1,11 @@
-from sentence_transformers import SentenceTransformer
+from gradio_client import Client
 
-model = SentenceTransformer("all-MiniLM-L6-v2")
+# Connect to your deployed Space
+client = Client("TheTharindu/meta_note_embedding_generator")
 
 def embed_text(texts: list[str]) -> list[list[float]]:
-    return model.encode(texts).tolist()
+    embeddings = []
+    for text in texts:
+        result = client.predict(text, api_name="/predict")
+        embeddings.append(result)
+    return embeddings
