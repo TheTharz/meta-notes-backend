@@ -1,0 +1,14 @@
+Binary Search:
+Binary search is a fast search algorithm that works on sorted arrays by repeatedly dividing the search interval in half. It starts with the middle element and compares it with the target value. If the target is smaller, it searches the left half; if larger, the right half. This continues until the target is found or the search interval is empty.
+
+Stack Data Structure:
+A stack is a linear data structure that follows the Last In, First Out (LIFO) principle. Elements can be added (pushed) or removed (popped) only from the top of the stack. It is used in function call management, expression evaluation, and backtracking algorithms.
+
+Queues:
+A queue is a linear data structure that follows the First In, First Out (FIFO) principle. Elements are added from the rear (enqueue) and removed from the front (dequeue). Queues are used in breadth-first search, task scheduling, and buffering data streams.
+
+Linked List:
+A linked list is a linear data structure where each element (node) contains data and a reference (pointer) to the next node. It allows efficient insertions and deletions at any position but has sequential access, unlike arrays which allow direct access.
+
+Sorting Algorithms:
+Common sorting algorithms include Bubble Sort, Merge Sort, Quick Sort, and Insertion Sort. Merge Sort and Quick Sort use divide and conquer strategies and have average time complexities of O(n log n), while Bubble Sort and Insertion Sort have O(n^2) time complexity and are less efficient for large datasets.
