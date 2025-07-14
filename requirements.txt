@@ -14,7 +14,7 @@ httpx==0.28.1
 huggingface-hub==0.33.4
 idna==3.10
 packaging==25.0
-pinecone-client==6.0.0
+pinecone
 pinecone-plugin-interface==0.0.7
 pydantic==2.11.7
 pydantic_core==2.33.2
