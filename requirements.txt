@@ -4,3 +4,4 @@ python-dotenv
 pinecone
 gradio_client
 python-multipart
+PyMuPDF
